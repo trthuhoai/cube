@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="街の飲食店が自社の社員食堂のように使える。抜群の福利厚生。社食プラットフォームアプリ「どこでも社食」株式会社シンシアージュ">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="/assets/img/">
+<!--<link rel="stylesheet" type="text/css" href="/assets/css/import.css">-->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/custom.css">
+<title>社食プラットフォームアプリ「どこでも社食」株式会社シンシアージュ | お問い合わせ | </title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="col-sm-12 hidden-xs">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="row">
+                        <h1 class="top_logo pl20 pt15"><a href="/index.html"><img src="/img/logo.svg" alt="社食プラットフォームアプリ・どこでも社食" class="img-responsive"></a></h1>
+                    </div>
+                </div>
+                <div class="hidden-xs col-sm-6 pt80">
+                    <ul class="text-center list-inline">
+                        <li class="nav-text pl0"><a href="/">トップ</a></li>
+                        <li class="nav-text pl10"><a href="/#service01">サービス概要</a></li>
+                        <li class="nav-text pl10"><a href="/#merit01">ご利用メリット</a></li>
+                        <li class="nav-text pl10"><a href="/#kadai01">課題解決</a></li>
+                        <li class="nav-text pl10"><a href="/#flow01">ご利用開始まで</a></li>
+                        <li class="nav-text pl10"><a href="/#corp01">会社概要</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-sm-2">
+                    <div class="row">
+                        <p class="text-right mt80 mb10"><img src="/img/header_tel_number.png" alt="03-5431-5540" class="img-responsive center-block"></p>
+                        <!--<p class="text-right"><a href="contact/"><img src="/img/header_contact.jpg" alt="お問い合わせ" class="img-responsive"></a></p>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="visible-xs">
+            <div class="col-xs-12">
+                <div class="col-xs-6">
+                    <p class="text-center"><a href="/index.html"><img src="/img/logo.svg" alt="社食プラットフォームアプリ・どこでも社食" class="img-responsive"></a></p>
+                </div>
+                <div class="col-xs-6">
+                    <p class="text-center mt35"><img src="/img/header_tel_number.png" alt="03-5431-5540" class="img-responsive center-block"></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<section style="padding-top:10%">
+	<div class="container app_form">
+		<h1 class="con-text">お問い合わせ</h1>
+		<div class="col-md-10 col-md-offset-1 col-xs-12">
+            <p class="mb20 text-center">
+			必須項目は必ずご記入の上、確認ボタンを押してください。<br>
+			お客さまにご記入いただきました個人情報は、弊社で責任をもって管理し、<br>
+                お客さまへの回答にのみ使用させていただきます。<br>
+			第三者への開示や他の目的には使用いたしません。
+            </p>
+			<form method="post" action="mail.php"class="form" id="contact_form">
+				<table border="1" bordercolor="#e8e8e8" class="mt30" width="100%">
+					<tbody>
+						<tr>
+							<th class="text-center">お名前</th>
+							<td><input type="text" class="form-control validate[required]"  name="お名前" value="" id="name" placeholder="お名前（全角文字）"></td>
+						</tr>
+						<tr>
+							<th class="text-center">フリガナ</th>
+                            <td><input type="text" class="form-control validate[required]"  name="フリガナ" value="" id="name_kana" placeholder="フリガナ（全角カタカナ）"></td>
+						</tr>
+						<tr>
+							<th class="text-center">会社名</th>
+							<td><input type="text" class="form-control"  name="会社名" value="" id="address1" placeholder="株式会社シンシアージュ"></td>
+						</tr>
+						<tr>
+							<th class="text-center">お電話番号</th>
+							<td><input type="text" class="form-control validate[required],custom[phone],maxSize[11]"  name="連絡先お電話番号" value="" id="tel" placeholder="連絡先お電話番号（半角数字）ハイフンなし （例）0541231234"></td>
+						</tr>
+						<tr>
+							<th class="text-center">FAX番号</th>
+                            <td><input type="text" class="form-control custom[phone],maxSize[10]"  name="FAX番号" value="" id="fax" placeholder="FAX番号（半角数字）ハイフンなし （例）0541231234"></td>
+						</tr>
+						<tr>
+							<th class="text-center">メールアドレス&nbsp; &nbsp;</th>
+							<td><input type="text" class="form-control validate[required],custom[email]" name="Email" id="email" placeholder="メールアドレス（半角英数字）（例）abc1234@abcdefg.com" value=""></td>
+						</tr>
+						<tr>
+							<th class="text-center">お問い合わせ内容&nbsp; &nbsp;</th>
+							<td><textarea rows="6" cols="30" name="お問い合わせ内容" id="contents" class="form-control" placeholder="お問い合わせ内容"></textarea></td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="col-md-6 col-md-offset-3 text-center mb50">
+					<p>確認ボタンを押すと、内容確認画面になります。</p>
+					<button type="submit" class="btn btn-thin-primary btn-block btn-lg">確　認　<i class="fa fa-play-circle"></i></button>
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+    
+    <footer class="bg-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                        <p class="text-center"><img src="/img/footer_logo.jpg" alt="社食プラットフォームアプリ「どこでも社食」" class="img-responsive center"></p>
+                        <p class="text-center">〒154-0001　東京都世田谷区池尻3-21-28　8F</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <p class="text-center bg-bk" style="margin: 0;">Copyright&copy;Sinsiarge Inc.　All right reseverved.</p>
+    </footer>
+<link rel="stylesheet" href="/css/validationEngine.jquery.css" type="text/css"/>
+<script src="/js/jquery.validationEngine.js"></script>
+<script src="/js/jquery.validationEngine-ja.js"></script>
+<script>
+jQuery(document).ready(function(){
+jQuery("#contact_form").validationEngine('attach', {
+promptPosition:"bottomLeft"
+});
+});
+</script>
+
+</body>
+</html>
